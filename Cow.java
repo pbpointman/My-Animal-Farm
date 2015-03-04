@@ -6,7 +6,8 @@ public class Cow extends Turtle
    * @param display the model display
    */
   public Cow(World wref)
-  { ex1.getDistance(100,100);
+  { 
+    ex1.getDistance(100,100);
     super(wref);
   }
   

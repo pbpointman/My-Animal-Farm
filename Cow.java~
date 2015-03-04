@@ -1,12 +1,12 @@
-public class ExampleTurtle extends Turtle
+public class Cow extends Turtle
 { 
   /**
    * Constructor that takes a model display and adds
    * a turtle in the middle of it
    * @param display the model display
    */
-  public ExampleTurtle(World wref)
-  {
+  public Cow(World wref)
+  { ex1.getDistance(100,100);
     super(wref);
   }
   
@@ -17,7 +17,7 @@ public class ExampleTurtle extends Turtle
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public Cow(int x, int y, World wref)
   {
     super(x, y, wref);
   }
