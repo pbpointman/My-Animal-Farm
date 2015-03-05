@@ -5,5 +5,7 @@ public class Farm
     World wref = new World();
 //Buddy=new Bear(ref)
   Shark bruce = new Shark(wref);
+  bruce.getDistance(100,70);
   }
 }
+   

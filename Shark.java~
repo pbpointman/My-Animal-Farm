@@ -10,9 +10,13 @@ public class Shark extends Turtle
   public Shark(World wref)
   {
     super(wref);
-    Color sc = new Color(0, 255, 255);
+    Color sc = new Color(0, 0, 153);
     this.setShellColor(sc);
+    Color bc = new Color(153, 0, 153);
+    this.setBodyColor(bc);
     
+    this.foward(200);
+    this.turnRight();
   }
   
   /**
