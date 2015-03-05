@@ -6,8 +6,12 @@ public class Cow extends Turtle
    * @param display the model display
    */
   public Cow(World wref)
-  { ex1.getDistance(100,100);
+  { 
     super(wref);
+   
+    Color bodyColor = new Color(0, 0, 0); //requires import line at top to work (new color defined using RGB values)
+    this.setBodyColor(bodyColor);
+   
   }
   
   /**

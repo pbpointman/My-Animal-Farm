@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 public class Cow extends Turtle
 { 
   /**
@@ -7,8 +9,15 @@ public class Cow extends Turtle
    */
   public Cow(World wref)
   { 
-    ex1.getDistance(100,100);
     super(wref);
+    //this.getShellColor(0,0,0)
+    Color shellColor = new Color(0,0,0);
+    //this.setShellColor();
+    this.setWidth(200);
+    this.setHeight(100);
+   
+   
+   
   }
   
   /**
