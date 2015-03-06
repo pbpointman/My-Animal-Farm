@@ -1,13 +1,17 @@
-public class ExampleTurtle extends Turtle
+public class Cow extends Turtle
 { 
   /**
    * Constructor that takes a model display and adds
    * a turtle in the middle of it
    * @param display the model display
    */
-  public ExampleTurtle(World wref)
-  {
+  public Cow(World wref)
+  { 
     super(wref);
+   
+    Color bodyColor = new Color(0, 0, 0); //requires import line at top to work (new color defined using RGB values)
+    this.setBodyColor(bodyColor);
+   
   }
   
   /**
@@ -17,7 +21,7 @@ public class ExampleTurtle extends Turtle
    * @param y the y pos
    * @param display the model display
    */
-  public ExampleTurtle(int x, int y, World wref)
+  public Cow(int x, int y, World wref)
   {
     super(x, y, wref);
   }
