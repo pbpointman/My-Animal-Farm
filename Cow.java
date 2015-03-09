@@ -25,11 +25,12 @@ public class Cow extends Turtle
   public void animateforward()
   {
     for(int i=0; i<10; i++);
-    this.forward
+    this.forward();
       try
     {
       Thread.sleep(200);
-    }catch(Interrupt
+    }catch(InterruptedException ex) { }
+  }
   
   /**
    * Constructor that takes the x and y position and the

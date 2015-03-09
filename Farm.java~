@@ -5,8 +5,15 @@ public class Farm
     World wref = new World();
   Cow buddy = new Cow(wref);
   Shark bruce = new Shark(wref);
+<<<<<<< HEAD
+ 
+=======
   bruce.getDistance(100,70);
   buddy.getDistance(50,50);
+<<<<<<< HEAD
+=======
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
   }
 }
    
