@@ -12,13 +12,24 @@ public class Cow extends Turtle
     super(wref);
     //this.getShellColor(0,0,0)
     Color shellColor = new Color(0,0,0);
-    //this.setShellColor();
-    this.setWidth(200);
+    this.setShellColor(shellColor);
+    Color bodyColor = new Color(165,42,42);
+    this.setBodyColor(bodyColor);
+    this.setWidth(100);
     this.setHeight(100);
+
    
    
    
   }
+  public void animateforward()
+  {
+    for(int i=0; i<10; i++);
+    this.forward
+      try
+    {
+      Thread.sleep(200);
+    }catch(Interrupt
   
   /**
    * Constructor that takes the x and y position and the
