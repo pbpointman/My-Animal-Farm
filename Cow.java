@@ -22,13 +22,22 @@ public class Cow extends Turtle
    
    
   }
-  public void animateforward()
+  public void animateforward(int x)
   {
     for(int i=0; i<10; i++);
     this.forward();
       try
     {
-      Thread.sleep(200);
+      Thread.sleep(150);
+    }catch(InterruptedException ex) { }
+  }
+  public void animateturn(int x)
+  {
+    for(int i=0; i<10; i++);
+    this.turn(x);
+    try
+    { 
+      Thread.sleep(150);
     }catch(InterruptedException ex) { }
   }
   

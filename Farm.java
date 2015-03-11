@@ -19,13 +19,14 @@ public class Farm
   buddy.getDistance(50,50);
   
 //giving commands for buddy
-  buddy.forward(150);
-  buddy.turn(270);
-  buddy.forward(100);
-  buddy.turn(270);
-  buddy.forward(300);
+  buddy.animateforward(150);
+  buddy.animateturn(270);
+  buddy.animateforward(100);
+  buddy.animateturn(270);
+  buddy.animateforward(300);
   buddy.turnToFace(10,10);
   buddy.setWidth(100);
+  buddy.animateforward(300);
   }
   
 }
