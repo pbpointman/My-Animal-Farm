@@ -14,5 +14,18 @@ public class Farm
     bruce.forward(100);
     bruce.turnLeft();
     bruce.forward(75);
+
+  bruce.getDistance(100,70);
+  buddy.getDistance(50,50);
+  
+//giving commands for buddy
+  buddy.forward(150);
+  buddy.turn(270);
+  buddy.forward(100);
+  buddy.turn(270);
+  buddy.forward(300);
+  buddy.turnToFace(10,10);
+  buddy.setWidth(100);
   }
+  
 }
