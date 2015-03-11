@@ -15,10 +15,10 @@ public class Shark extends Turtle
     Color bc = new Color(153, 0, 153);
     this.setBodyColor(bc);
     this.getDistance(100,100);
-    this.setWidth(300);
-    this.setHeight(300);
-    this.turnRight();
-    this.turnRight();
+    this.setWidth(30);
+    this.setHeight(30);
+    
+
   }
   
   /**
